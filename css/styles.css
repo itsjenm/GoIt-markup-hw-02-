@@ -62,6 +62,7 @@ ul {
     border-radius: 4px;
     font-size: 16px;
     font-weight: 700;
+    background-color: #2196F3;
     color: #FFFFFF;
     cursor: pointer;
 
@@ -69,7 +70,7 @@ ul {
 
 .request-button:hover,
 .request-button:focus {
-    color: #2196F3;
+    background-color: #188CE8;
     
 }
 
@@ -151,18 +152,15 @@ p {
     color: #FFFFFF;
 }
 
-.footer a {
-    color: rgba(255, 255, 255, 1);
+.footer .footer-contacts {
+    color: #757575;
     text-decoration: none;
     font-style: normal;
 }
 
-.footer .mailto,
-.footer .tel {
-    color: #FFFFFF;
-}
 
-.footer a:hover,
-.footer a:focus {
-    color: #757575;
+
+.footer .footer-contacts:hover,
+.footer .footer-contacts:focus {
+    color: rgba(255, 255, 255, 1);;
 }
